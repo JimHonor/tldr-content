@@ -11,7 +11,7 @@ jobs:
 
     steps:
       - name: Checkout submodule repository
-        uses: actions/checkout@v2
+        uses: actions/checkout@v4
         with:
           repository: JimHonor/tldr-website
           token: ${{ secrets.TOKEN_TO_PARENT_REPO }}
